@@ -14,14 +14,12 @@ def random_adjective():
     return random.choice(adjectives)
 
 def random_noun():
-    nouns = ['rock', 'man', 'car', 'woman', 'house', 'cabin',
-             'window', 'river', 'mouse', 'dog', 'computer',
-             'cat', 'bigfoot', 'alien', 'balloon', 'circus',
-             'piano', 'plant', 'whale', 'telephone pole',
-             'fish', 'gremlin', 'bus', 'light switch', 'mole',
-             'pimple', 'booger', 'fingernail', 'paint can',
-             'goat herd', 'traffic light', 'horse', 'lake',
-             'cliff', 'duck', 'ruins', 'ghost', 'dream']
+    nouns = ['rock', 'man', 'car', 'woman', 'house', 'cabin', 'window', 'river',
+             'mouse', 'dog', 'computer', 'cat', 'bigfoot', 'alien', 'balloon',
+             'circus', 'piano', 'plant', 'whale', 'telephone pole', 'fish',
+             'gremlin', 'bus', 'light switch', 'mole', 'pimple', 'booger',
+             'fingernail', 'paint can', 'goat herd', 'traffic light',
+             'horse', 'lake', 'cliff', 'duck', 'ruins', 'ghost', 'dream']
 
     return random.choice(nouns)
 
